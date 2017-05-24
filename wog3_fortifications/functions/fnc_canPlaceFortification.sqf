@@ -3,7 +3,7 @@
 params ["_unit"];
 
 if !("ToolKit" in items _unit) exitWith {false};
-if !([unit, 1] call EFUNC(repair,isEngineer)) exitWith {false};
+if !([_unit, 1] call EFUNC(repair,isEngineer)) exitWith {false};
 
 private ["_nearObjects", "_return"];
 
