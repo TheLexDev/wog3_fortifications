@@ -1,0 +1,1 @@
+#include "\z\ace\addons\wog3_fortifications\script_component.hpp"

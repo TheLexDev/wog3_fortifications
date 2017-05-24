@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ACE">
+    <Package name="wog3_fortifications">
+        <Key ID="STR_ACE_wog3_fortifications_buildFortification">
+			<English>Build fortification</English>
+			<Russian>Построить укрепление</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_bagBunkerSmall">
+			<English>Small Bag Bunker</English>
+			<Russian>Малый бункер из мешков</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_bagFenceLong">
+			<English>Long Bag Fence</English>
+			<Russian>Длинный барьер из мешков</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_bagFenceShort">
+			<English>Short Bag Fence</English>
+			<Russian>Короткий барьер из мешков</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_bagFenceRound">
+			<English>Round Bag Fence</English>
+			<Russian>Круглый барьер из мешков</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_bagFenceCorner">
+			<English>Corner Bag Fence</English>
+			<Russian>Угловой барьер из мешков</Russian>  
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_bagFenceEnd">
+			<English>End Bag Fence</English>
+			<Russian>Концевая часть барьера из мешков</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_buildingProcess">
+			<English>Building...</English>
+			<Russian>Идет постройка...</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_confirmPlace">
+			<English>Confirm placement</English>
+			<Russian>Установить на поверхность</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_cancelPlace">
+			<English>Cancel</English>
+			<Russian>Отменить</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_rotateAndPlace">
+			<English>(Scroll) Rotate / (Click) Confirm current placement</English>
+			<Russian>(Скролл) Повернуть / (Клик) Установить в текущей позиции</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_bagBunkerCat">
+			<English>Bag bunkers</English>
+			<Russian>Бункеры</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_bagFenceCat">
+			<English>Bag fences</English>
+			<Russian>Барьеры из мешков</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_camoNetCat">
+			<English>Camouflage Net</English>
+			<Russian>Камуфляжные сети</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_camoNetSmall">
+			<English>Camouflage Net (Small)</English>
+			<Russian>Камуфляжная сеть (малая)</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_camoNetSmallOpened">
+			<English>Camouflage Net (Small and Open)</English>
+			<Russian>Камуфляжная сеть (открытая)</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_camoNetLarge">
+			<English>Camouflage Net (Large)</English>
+			<Russian>Камуфляжная сеть (большая)</Russian>
+		</Key>
+	</Package>
+</Project>
