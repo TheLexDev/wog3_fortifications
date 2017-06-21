@@ -27,7 +27,7 @@ class CfgVehicles
 					{
 						displayName = CSTRING(bagBunkerSmall);
 						condition = QUOTE(_this call FUNC(canPlaceFortification));
-						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'Land_BagBunker_Small_F',[0,-1,3.9],false)])] call CBA_fnc_execNextFrame);
+						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'lex_Land_BagBunker_Small_F',[0,-1,3.9],false)])] call CBA_fnc_execNextFrame);
 						exceptions[] = {"isNotSwimming"};
 						showDisabled = 0;
 						priority = 4;
@@ -47,7 +47,7 @@ class CfgVehicles
 					{
 						displayName = CSTRING(bagFenceLong);
 						condition = QUOTE(_this call FUNC(canPlaceFortification));
-						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'Land_BagFence_Long_F',[0,-0.1,2.5],true)])] call CBA_fnc_execNextFrame);
+						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'lex_Land_BagFence_Long_F',[0,-0.1,2.5],true)])] call CBA_fnc_execNextFrame);
 						exceptions[] = {"isNotSwimming"};
 						showDisabled = 0;
 						priority = 4;
@@ -58,7 +58,7 @@ class CfgVehicles
 					{
 						displayName = CSTRING(bagFenceShort);
 						condition = QUOTE(_this call FUNC(canPlaceFortification));
-						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'Land_BagFence_Short_F',[0,-0.1,2.5],true)])] call CBA_fnc_execNextFrame);
+						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'lex_Land_BagFence_Short_F',[0,-0.1,2.5],true)])] call CBA_fnc_execNextFrame);
 						exceptions[] = {"isNotSwimming"};
 						showDisabled = 0;
 						priority = 4;
@@ -69,7 +69,7 @@ class CfgVehicles
 					{
 						displayName = CSTRING(bagFenceRound);
 						condition = QUOTE(_this call FUNC(canPlaceFortification));
-						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'Land_BagFence_Round_F',[0,-0.1,2.5],true)])] call CBA_fnc_execNextFrame);
+						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'lex_Land_BagFence_Round_F',[0,-0.1,2.5],true)])] call CBA_fnc_execNextFrame);
 						exceptions[] = {"isNotSwimming"};
 						showDisabled = 0;
 						priority = 4;
@@ -80,7 +80,7 @@ class CfgVehicles
 					{
 						displayName = CSTRING(bagFenceCorner);
 						condition = QUOTE(_this call FUNC(canPlaceFortification));
-						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'Land_BagFence_Corner_F',[0,-0.1,2.5],true)])] call CBA_fnc_execNextFrame);
+						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'lex_Land_BagFence_Corner_F',[0,-0.1,2.5],true)])] call CBA_fnc_execNextFrame);
 						exceptions[] = {"isNotSwimming"};
 						showDisabled = 0;
 						priority = 4;
@@ -91,7 +91,7 @@ class CfgVehicles
 					{
 						displayName = CSTRING(bagFenceEnd);
 						condition = QUOTE(_this call FUNC(canPlaceFortification));
-						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'Land_BagFence_End_F',[0,-0.1,2.5],true)])] call CBA_fnc_execNextFrame);
+						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'lex_Land_BagFence_End_F',[0,-0.1,2.5],true)])] call CBA_fnc_execNextFrame);
 						exceptions[] = {"isNotSwimming"};
 						showDisabled = 0;
 						priority = 4;
@@ -111,7 +111,7 @@ class CfgVehicles
 					{
 						displayName = CSTRING(camoNetSmall);
 						condition = QUOTE(_this call FUNC(canPlaceFortification));
-						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'CamoNet_BLUFOR_F',[0,-1,4.5],false)])] call CBA_fnc_execNextFrame);
+						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'lex_CamoNet_BLUFOR_F',[0,-1,4.5],false)])] call CBA_fnc_execNextFrame);
 						exceptions[] = {"isNotSwimming"};
 						showDisabled = 0;
 						priority = 4;
@@ -122,7 +122,7 @@ class CfgVehicles
 					{
 						displayName = CSTRING(camoNetSmallOpened);
 						condition = QUOTE(_this call FUNC(canPlaceFortification));
-						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'CamoNet_BLUFOR_open_F',[0,-1,4.5],false)])] call CBA_fnc_execNextFrame);
+						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'lex_CamoNet_BLUFOR_open_F',[0,-1,4.5],false)])] call CBA_fnc_execNextFrame);
 						exceptions[] = {"isNotSwimming"};
 						showDisabled = 0;
 						priority = 4;
@@ -133,7 +133,7 @@ class CfgVehicles
 					{
 						displayName = CSTRING(camoNetLarge);
 						condition = QUOTE(_this call FUNC(canPlaceFortification));
-						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'CamoNet_BLUFOR_big_F',[0,-1,4.5],false)])] call CBA_fnc_execNextFrame);
+						statement = QUOTE([ARR_2({_this call FUNC(placeFortification)},[ARR_4(_this select 0,'lex_CamoNet_BLUFOR_big_F',[0,-1,4.5],false)])] call CBA_fnc_execNextFrame);
 						exceptions[] = {"isNotSwimming"};
 						showDisabled = 0;
 						priority = 4;
@@ -142,5 +142,78 @@ class CfgVehicles
 				};
 			};
 		};
+	};
+	
+	class Land_BagBunker_Small_F;
+	class Land_BagFence_Long_F;
+	class Land_BagFence_Short_F;
+	class Land_BagFence_Round_F;
+	class Land_BagFence_Corner_F;
+	class Land_BagFence_End_F;
+	class CamoNet_BLUFOR_F;
+	class CamoNet_BLUFOR_open_F;
+	class CamoNet_BLUFOR_big_F;
+	
+	class lex_Land_BagBunker_Small_F: Land_BagBunker_Small_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		GVAR(buildDuration) = 180;
+	};
+	
+	class lex_Land_BagFence_Long_F: Land_BagFence_Long_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		GVAR(buildDuration) = 60;
+	};
+	
+	class lex_Land_BagFence_Short_F: Land_BagFence_Short_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		GVAR(buildDuration) = 40;
+	};
+	
+	class lex_Land_BagFence_Round_F: Land_BagFence_Round_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		GVAR(buildDuration) = 45;
+	};
+	
+	class lex_Land_BagFence_Corner_F: Land_BagFence_Corner_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		GVAR(buildDuration) = 35;
+	};
+	
+	class lex_Land_BagFence_End_F: Land_BagFence_End_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		GVAR(buildDuration) = 25;
+	};
+	
+	class lex_CamoNet_BLUFOR_F: CamoNet_BLUFOR_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		GVAR(buildDuration) = 60;
+	};
+	
+	class lex_CamoNet_BLUFOR_open_F: CamoNet_BLUFOR_open_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		GVAR(buildDuration) = 50;
+	};
+	
+	class lex_CamoNet_BLUFOR_big_F: CamoNet_BLUFOR_big_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		GVAR(buildDuration) = 80;
 	};
 };

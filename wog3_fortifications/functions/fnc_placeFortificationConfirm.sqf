@@ -49,7 +49,7 @@ private _fnc_onFailure =
 };
 
 [_unit, "AinvPknlMstpSnonWnonDnon_medic4"] call EFUNC(common,doAnimation);
-
-[10, [_unit, GVAR(fortObj)], _fnc_onFinish, _fnc_onFailure, localize LSTRING(buildingProcess)] call EFUNC(common,progressBar);
+_buildDuration = getNumber (configFile >> "CfgVehicles" >> typeOf GVAR(fortObj) >> QGVAR(buildDuration));
+[_buildDuration, [_unit, GVAR(fortObj)], _fnc_onFinish, _fnc_onFailure, localize LSTRING(buildingProcess)] call EFUNC(common,progressBar);
 
 _unit setVariable [QGVAR(isPlacing), false, true];
