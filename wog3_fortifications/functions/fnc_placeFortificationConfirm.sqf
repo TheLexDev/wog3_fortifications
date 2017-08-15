@@ -38,6 +38,7 @@ private _fnc_onFinish =
 	_newObj = createVehicle [_classname, [0, 0, 0], [], 0, "NONE"];
 	_newObj setVectorDirAndUp _direction;
 	_newObj setPosASL _position;
+	_newObj setVariable [QGVAR(ownerSide), side _unit, true];
 	
 };
 private _fnc_onFailure =

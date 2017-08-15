@@ -1,5 +1,5 @@
-
 PREP(canPlaceFortification);
+PREP(canRemoveFortification);
 PREP(handleInteractMenuOpened);
 PREP(handleKilled);
 PREP(handlePlayerChanged);
@@ -9,3 +9,4 @@ PREP(handleUnconscious);
 PREP(placeFortification);
 PREP(placeFortificationCancel);
 PREP(placeFortificationConfirm);
+PREP(removeFortification);
