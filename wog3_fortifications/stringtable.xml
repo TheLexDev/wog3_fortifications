@@ -53,6 +53,22 @@
 			<English>Bag fences</English>
 			<Russian>Барьеры из мешков</Russian>
 		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_sandbag_barricade_hole">
+			<English>Sandbag Barricade (hole)</English>
+			<Russian>Баррикада из мешков с песком (отверстие, высокая)</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_sandbag_barricade">
+			<English>Sandbag Barricade</English>
+			<Russian>Баррикада из мешков с песком (высокая)</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_sandbag_barricade_half">
+			<English>Sandbag Barricade (short)</English>
+			<Russian>Баррикада из мешков с песком (короткая)</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_Misc">
+			<English>Misc</English>
+			<Russian>Прочее</Russian>
+		</Key>
 		<Key ID="STR_ACE_wog3_fortifications_camoNetCat">
 			<English>Camouflage Net</English>
 			<Russian>Камуфляжные сети</Russian>
@@ -68,6 +84,22 @@
 		<Key ID="STR_ACE_wog3_fortifications_camoNetLarge">
 			<English>Camouflage Net (Large)</English>
 			<Russian>Камуфляжная сеть (большая)</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_removeFortificationAction">
+			<English>Remove object</English>
+			<Russian>&lt;img image='z\ace\addons\wog3_fortifications\data\ui\remove.paa' color='#EFCB00'/&gt; Разобрать объект</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_removeProcess">
+			<English>Removing...</English>
+			<Russian>Идет разбор...</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_hedgehog">
+			<English>Hedgehog</English>
+			<Russian>Стальной ёж</Russian>
+		</Key>
+		<Key ID="STR_ACE_wog3_fortifications_ladder_half">
+			<English>Ladder</English>
+			<Russian>Лестница</Russian>
 		</Key>
 	</Package>
 </Project>
